@@ -8,22 +8,22 @@ This repo provides starter code for you to create your own command-line applicat
 
 1. Clone this repo: `git clone https://github.com/sswatson/my-jira.git`
 2. Install [Go](https://golang.org/doc/install) on your machine (if you haven't already).
-2. Go into your Jira account and create an API key: https://id.atlassian.com/manage-profile/security -> "Create and Manage API Tokens".
-3. Add the following line to your shell init file:
+3. Go into your Jira account and create an API key: https://id.atlassian.com/manage-profile/security -> "Create and Manage API Tokens".
+4. Add the following line to your shell init file:
 
     ```bash
-    export JIRA_API_TOKEN="your-api-token-from-step-2"
+    export JIRA_API_TOKEN="your-api-token-from-step-3"
     ```
 
-4. Run `./make` (or `go build -o bin/my-jira my-jira/*`, if you have some problem with the `make` script) to build an executable called `my-jira`.
-5. Run `./bin/my-jira whoami` and copy the resulting account ID value.
-6. Add the following line to your shell init file:
+5. Run `./make` (or `go build -o bin/my-jira my-jira/*`, if you have some problem with the `make` script) to build an executable called `my-jira`.
+6. Run `./bin/my-jira whoami` and copy the resulting account ID value.
+7. Add the following line to your shell init file:
 
     ```bash
-    export JIRA_ACCOUNT_ID="your-account-id-from-step-5"
+    export JIRA_ACCOUNT_ID="your-account-id-from-step-6"
     ```
 
-7. Run `./bin/my-jira` to see the list of available commands.
+8. Run `./bin/my-jira` to see the list of available commands.
 
 ## Installation
 
